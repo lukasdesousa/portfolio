@@ -3,6 +3,7 @@
 import React from "react";
 import styled from "styled-components";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function AsteriskContact() {
     return (
@@ -27,8 +28,12 @@ export default function AsteriskContact() {
               </section>
               <h1>CONTATO</h1>
               <section className="contact-opt">
-                <h1><span>01.</span> LINKEDIN</h1>
-                <h1><span>02.</span> S.LUKAS.DEV@GMAIL.COM</h1>
+                <Link href="https://linkedin.com/in/lukasdesouza" target="_blank" rel="noopener noreferrer" style={{textDecoration: 'none'}}>
+                  <h1><span>01.</span> LINKEDIN</h1>
+                </Link>
+                <Link href="mailto:s.lukas.dev@gmail.com" target="_blank" rel="noopener noreferrer" style={{textDecoration: 'none'}}>
+                  <h1><span>02.</span> S.LUKAS.DEV@GMAIL.COM</h1>
+                </Link>
                 <h1><span>03.</span> +55 88 9 9706-3343</h1>
               </section>
           </Container>
