@@ -10,7 +10,7 @@ export default function LoveVerse() {
                 <Projects
                 title="LOVEVERSE"
                 technologies="NEXT"
-                src="/images/loveverse-capa-projeto.png"
+                src="/images/loveverse-capa-projeto.webp"
                 problem="Sites concorrentes com preços abusivos e falta de personalização. Com zero empatia com o cliente, não entendem suas necessidades. Sem UX adequada, dificultam a criação de mensagens personalizadas."
                 solution="Criar um site que crie gratuitamente mensagens personalizadas para casais, com uma interface intuitiva e fácil de usar, permitindo que os usuários expressem seus sentimentos de forma única."
                 gallerySrc={[
