@@ -14,7 +14,7 @@ const montSerrat = Montserrat({
 
 export const metadata: Metadata = {
   title: "Lukas S.",
-  description: "Criado com Next.js",
+  description: "Lukas S. - Software Engineer | Frontend Developer | React | Next.js",
 };
 
 export default function RootLayout({
