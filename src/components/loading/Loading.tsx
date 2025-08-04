@@ -9,7 +9,7 @@ export default function Loading({ children }: { children: React.ReactNode }) {
     useEffect(() => {
         const timer = setTimeout(() => {
             setShowContent(true);
-        }, 2000); // espera 3 segundos
+        }, 2000);
 
         return () => clearTimeout(timer);
     }, []);
