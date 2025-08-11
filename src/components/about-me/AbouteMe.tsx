@@ -59,6 +59,10 @@ const BallContainer = styled.section`
         @media (max-width: 768px) {
         font-size: clamp(1.2rem, 2vw, 13rem);
         font-family: 'montserrat', 'Jost';
+        -webkit-user-select: none;
+        -moz-user-select: none;  
+        -ms-user-select: none;    
+        user-select: none;
     }
         font-size: clamp(2rem, 2vw, 13rem);
         color: #d6d1ce;
