@@ -25,7 +25,7 @@ export async function sendEmail() {
                   Você acabou de receber uma nova visita pelo seu currículo.
                 </p>
                 <p style="margin:0 0 20px 0; font-size:14px; color:#475569;">
-                  Parece quem algum recrutador te visitou 😉
+                  Parece que algum recrutador te visitou 😉
                 </p>
               </td>
             </tr>
