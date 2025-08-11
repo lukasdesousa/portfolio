@@ -1,6 +1,6 @@
 'use client';
 
-import React from "react";
+import React, { useEffect } from "react";
 import styled from "styled-components";
 import Image from "next/image";
 import Header from "@/components/header/Header";
@@ -10,9 +10,20 @@ import AsteriskAnim from "@/components/asterisk/AsteriskAnim";
 import Projects from "@/components/projects/Projects";
 import AsteriskContact from "@/components/asterisk/asterisk-contact/AsteriskContact";
 import Footer from "@/components/footer/Footer";
+import { useSearchParams } from "next/navigation";
+import { sendEmail } from "@/utils/sendEmail";
 
 export default function HomePage() {
   const isSmall = useMediaQuery('(max-width: 1350px)');
+  const searchParams = useSearchParams();
+  const cameFromCv = searchParams?.get('curriculo');
+
+  useEffect(() => {
+    if(cameFromCv && !localStorage.getItem('emailSent')) {
+      localStorage.setItem('emailSent', 'true');
+      sendEmail();
+    }
+  }, [cameFromCv]);
 
   return (
     <>
