@@ -19,3 +19,4 @@ A aplicação é moderna, responsiva e otimizada para performance e SEO.
 - Links para projeto em produção e redes sociais
 - Design responsivo e acessível
 - Sem exagero de informações
+- Envio de e-mails quando o portfólio for acessado pelo currículo.
